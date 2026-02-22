@@ -11,7 +11,6 @@ The app fetches real-time news articles from a public News API and displays them
 - 📂 Category-wise News (Technology, Sports, Business, etc.)
 - 🔎 Search News Articles
 - 💾 Offline Caching Support
-- 🔄 Swipe to Refresh
 - 📱 Clean & Responsive UI
 - 🧠 MVVM Architecture Implementation
 - ⚡ Coroutines for Background Processing
@@ -62,3 +61,4 @@ This app uses a public News API to fetch latest headlines.
 
 ### 🔍 Search Screen
 ![Search Screen](Screenshot/Search.png)
+
