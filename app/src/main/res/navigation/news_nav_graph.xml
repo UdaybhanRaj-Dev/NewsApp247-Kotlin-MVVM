@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/headlineFragment">
+
+    <fragment
+        android:id="@+id/articalFragment"
+        android:name="com.example.news247.ui.fragments.ArticalFragment"
+        android:label="ArticalFragment">
+
+        <!-- ✅ ARGUMENT INSIDE FRAGMENT -->
+        <argument
+            android:name="article"
+            app:argType="com.example.news247.models.Article" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/headlineFragment"
+        android:name="com.example.news247.ui.fragments.HeadlineFragment"
+        android:label="HeadlineFragment">
+
+        <action
+            android:id="@+id/action_headlineFragment_to_articalFragment"
+            app:destination="@id/articalFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="com.example.news247.ui.fragments.FavouritesFragment"
+        android:label="fragment_favourites">
+
+        <action
+            android:id="@+id/action_favouritesFragment_to_articalFragment"
+            app:destination="@id/articalFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.news247.ui.fragments.SearchFragment"
+        android:label="fragment_search">
+
+        <action
+            android:id="@+id/action_searchFragment_to_articalFragment"
+            app:destination="@id/articalFragment" />
+    </fragment>
+
+</navigation>

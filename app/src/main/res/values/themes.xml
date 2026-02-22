@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.News247" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryVariant">@color/ColorPrimaryVariant</item>
+        <item name="android:statusBarColor">@color/ColorPrimaryDark</item>
+
+    </style>
+
+    <style name="Theme.News247" parent="Base.Theme.News247" />
+<!--    <style name="App.Custtom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">-->
+<!--        <item name="android:color">@color/AppIndicator</item>-->
+<!--    </style>-->
+
+    <style name="App.Custtom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/white</item>
+        <item name="android:alpha">0.2</item>
+    </style>
+</resources>
