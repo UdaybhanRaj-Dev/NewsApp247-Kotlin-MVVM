@@ -48,7 +48,7 @@ This improves:
 
 This app uses a public News API to fetch latest headlines.
 
-> ⚠️ Note: Add your API key inside the Constants file before running the app.
+ https://newsapi.org/
 
 ---
 ## 📸 Screenshots
@@ -56,7 +56,7 @@ This app uses a public News API to fetch latest headlines.
 ### 🏠 Home Screen
 ![Home Screen](Screenshot/Home.png)
 
-### ⭐ Category Screen
+### ⭐ Favourits Screen
 ![Category Screen](Screenshot/Favourits.png)
 
 ### 🔍 Search Screen
